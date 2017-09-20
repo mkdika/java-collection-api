@@ -41,11 +41,6 @@ public class TestLinkedList {
         System.out.println("get last element = " + list.getLast());
         
         // 4 is index of ?
-        System.out.println("4 is index of ? " + list.indexOf(4));
-        
-        
-        
-        
-         
+        System.out.println("4 is index of ? " + list.indexOf(4));                                         
     }    
 }
