@@ -32,10 +32,10 @@ public class TestDeque {
         System.out.println("Peek First is " + deque.peekFirst()+", Peek Last is "
                 + deque.peekLast()+", Peek is "+ deque.peek());
         
-        // POLL 
+        // POLL - removeing, head or tail data from queue
         System.out.println("Poll head data is " + deque.pollFirst()+
                 ", poll last data is " + deque.pollLast()+
                 ", poll is " + deque.poll()+
-                ", content: " + deque.toString());                        
+                ", content: " + deque.toString());                       
     }    
 }
